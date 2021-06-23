@@ -1,3 +1,9 @@
+# THIS IS A FORK (NOTE WELL)
+ 
+ I'm making some experimental mods to tinker with this, using under MIT license of the original project, see original/previous readme below. I'm not going to do anything major with trying to generate a new readme and such unless it turns into something significantly different, so I'll leave the original readme below for all the license issues, my current changes will also be MIT licensed if they become something useful on its own for others...
+
+# THIS IS A FORK, PREVIOUS README BELOW
+
 # Making Ten Card Game
 > Simple interactive math game, built with Svelte (my first Svelte project)
 
