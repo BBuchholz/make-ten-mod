@@ -6,18 +6,18 @@
 	export let value: CardValue = 'A';
 	let classStr = '';
 	export { classStr as class };
-	let cardSvgPath: string;
+	let cardJpgPath: string;
 	$: {
-		const svgFolder = `/images/cards`;
-		cardSvgPath = `${svgFolder}/${value}${suite
+		const jpgFolder = `/images/cards-jpg`;
+		cardJpgPath = `${jpgFolder}/${value}${suite
 			.charAt(0)
-			.toUpperCase()}.svg`;
+			.toUpperCase()}.jpg`;
 	}
 </script>
 
 <div class={spaceJoin(['card', classStr])}>
 	<img
-		src={cardSvgPath}
+		src={cardJpgPath}
 		alt={`${value} of ${suite} card.`}
 		style="max-width:{maxCardWidth}px; height: auto;" />
 </div>
